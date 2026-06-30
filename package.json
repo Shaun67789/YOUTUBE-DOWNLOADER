@@ -1,0 +1,17 @@
+{
+  "name": "youtube-downloader-api",
+  "version": "1.0.0",
+  "description": "YouTube Video Downloader - API Proxy Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "helmet": "^7.1.0"
+  }
+}

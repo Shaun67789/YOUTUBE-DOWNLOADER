@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: youtube-downloader-api
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: API_BASE_URL
+        value: https://docs.prexzyapis.com
+      - key: PORT
+        value: "3000"
